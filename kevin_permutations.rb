@@ -1,3 +1,15 @@
+##
+## This class [kinda sorta I think] implements the Steinhaus-Johnson-Trotter
+## algorithm (with Even's speedup) for iterative generation of permutations.
+## See:
+##   http://en.wikipedia.org/wiki/Steinhaus%E2%80%93Johnson%E2%80%93Trotter_algorithm
+## for more details.
+##
+## This class also [kinda sorta I think] follows this blog's advice on
+## creating enumerable objects:
+##   http://blog.arkency.com/2014/01/ruby-to-enum-for-enumerator/
+## I'm not sure I like this better than the normal use of Enumerable, though.
+##
 
 class KevinPermutations
   def initialize(num_elems)
